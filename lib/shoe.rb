@@ -8,6 +8,7 @@ class Shoe
     BRANDS << brand unless BRANDS.include?(brand)
     binding.pry
   end
+  
   def brand
     @brand
       end
@@ -15,6 +16,5 @@ class Shoe
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
-  end
   end
 end
